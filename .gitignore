@@ -1,3 +1,6 @@
+.gitignore/
+node_modules/
+
 1. npm init -y
 git init
 public folder -> index.html
@@ -19,5 +22,12 @@ Create webpack.config.js
 Now, Run on browser: 
 npx webpack-dev-server --mode development
 
+Make changes in browser w/o physically refreshing
+npm i --save-dev react-hot-loader
+and make changes in App.js
+and in package.json
+=>      now, to RUN: npm run dev
+                BUILT: npm run build (shows dist file ) : unneeded for now
 
-To stop running: press COntrl+ C
+
+To stop running: press Control+ C
